@@ -1,7 +1,3 @@
-// Dynamic Event Calendar Application
-// ==================================
-
-// Imports
 import React, { useState, useEffect } from 'react';
 import { format, startOfMonth, endOfMonth, startOfWeek, addDays, addMonths, subMonths, isSameDay, isToday } from 'date-fns';
 import "./App.css"; // Add your CSS styles here
